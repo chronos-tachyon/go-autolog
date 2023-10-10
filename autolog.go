@@ -60,7 +60,7 @@ func ExpandTimeFormat(str string) string {
 }
 
 func ExpandPath(str string, now time.Time) string {
-	return str
+	return Strftime(str, now)
 }
 
 var (
